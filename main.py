@@ -3,7 +3,7 @@ import tweepy
 
 #twitter API 
 consumer_key = "qwep0aJuygFMPJtcZKpoCQ"
-consumer_secret = "imnotreallygoingtopostthistogithub" #LOL
+consumer_secret = "2VllHlcntzuTj8Tx2bYCu9bsU5AYY2ccnTxPsgg" #Yes, you can see this. I know.
 access_token = "537816100-Z66b3qzeueaZugVsZWxWLu0pw7NuQp6iXKg0at36"
 access_token_secret = "CWg12ArgCreCsP6FhEtSGJaq8krMdEhJb6ZtilAT4"
 
@@ -62,8 +62,7 @@ else:
     second_tweet = "..." + tweet[last_comma_index+2:]
     tweet = tweet[:last_comma_index] + "..."
     api.update_status(tweet)
-    
-api.update_status(second_tweet)
+    api.update_status(second_tweet)
 
 
 file.close()
